@@ -1,6 +1,9 @@
-import { createTheme } from '@mui/material/styles';
 
-const CustomTheme = createTheme({
+import { createTheme } from '@material-ui/core/styles';
+const CustomTheme =  createTheme({
     direction: "rtl",
+    typography:{
+        fontFamily:"IRANSans",
+    },
 });
 export default CustomTheme;
