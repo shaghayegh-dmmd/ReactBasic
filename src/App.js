@@ -2,7 +2,7 @@ import "./index.css";
 import { create } from 'jss';
 import rtl from 'jss-rtl';
 import { StylesProvider, jssPreset } from '@mui/styles';
-import { ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from "@material-ui/core/styles";
 import CustomTheme from "./assets/CustomTheme";
 import "./assets/fonts/fontiran.css";
 import { Typography } from "@material-ui/core";
