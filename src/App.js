@@ -6,6 +6,7 @@ import { ThemeProvider } from "@material-ui/core/styles";
 import CustomTheme from "./assets/CustomTheme";
 import "./assets/fonts/fontiran.css";
 import { Typography } from "@material-ui/core";
+import { Button } from "@mui/material";
 // Configure JSS
 const jss = create({
   plugins: [...jssPreset().plugins, rtl()],
@@ -21,7 +22,7 @@ function App() {
         <div className="bg-red-500 flex-col">
           <label htmlFor="item">New item</label>
           <input type="text" id="item" className="bg-tahiti border-2 "></input>
-          <button className="">test</button>
+          <Button variant="contained">Submit</Button>
         </div>
       </form>
     </StylesProvider>
