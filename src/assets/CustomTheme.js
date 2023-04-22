@@ -7,5 +7,14 @@ const CustomTheme =  createMuiTheme({
     typography:{
         fontFamily:"IRANSans",
     },
+    components: {
+        MuiStack: {
+          defaultProps: {
+            useFlexGap: true,
+          },
+        },
+      },
 });
+
+
 export default CustomTheme;
