@@ -37,6 +37,7 @@ function App() {
             <Button variant="contained">Item 1</Button>
               <Button variant="contained">button 2</Button>
               <Button variant="contained">Long content</Button>
+              <Buttom variant="outline">test3</Buttom>
             </Stack>
           </div>
         </form>
