@@ -8,9 +8,11 @@ import { Typography } from "@material-ui/core";
 const Post = (props) => {
   return (
     <ThemeProvider theme={CustomTheme}>
-      <div className="bg-purple m-5 rounded-md p-2">
-      <Typography variant="h2">{props.data.title}</Typography>
-        <p>{props.data.body}</p>
+      <div className="w-full flex justify-center items-center">
+        <div className="bg-purple m-5 rounded-md p-4 w-6/12">
+          <Typography variant="h2">{props.data.title}</Typography>
+          <Typography variant="p">{props.data.body}</Typography>
+        </div>
       </div>
     </ThemeProvider>
   );
