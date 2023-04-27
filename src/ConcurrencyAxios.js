@@ -10,6 +10,8 @@ const ConcurrencyAxios = () => {
 
     }, []);
 
+
+
     const getAll = () => {
         Promise.all([
             axios.get(`${BASE_URL}/Posts`),
@@ -24,6 +26,6 @@ const ConcurrencyAxios = () => {
             console.log(error);
         });
     };
-    return <div></div>
+    return <div>ConcurrencyAxios && ConcurrencyAxios.map</div>
 }
 export default ConcurrencyAxios;
