@@ -11,7 +11,7 @@ const Post = (props) => {
       <div className="w-full flex justify-center items-center">
         <div className="bg-purple m-5 rounded-md p-4 w-6/12">
           <Typography variant="h2">{props.data.title}</Typography>
-          <Typography variant="p">{props.data.body}</Typography>
+          <Typography variant="caption">{props.data.body}</Typography>
         </div>
       </div>
     </ThemeProvider>
