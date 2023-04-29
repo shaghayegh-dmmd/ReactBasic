@@ -41,7 +41,7 @@ function App() {
   }
 
   return (
-   <>{arrayData && arrayData.map(element => <Post data={element} />)}
+   <>{arrayData && arrayData.map(element => <Post key={element.id} data={element} />)}
       <ThemeProvider theme={CustomTheme}>
       <StylesProvider jss={jss}>
         <Typography variant="h1">شقایق</Typography>

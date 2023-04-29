@@ -26,6 +26,6 @@ const ConcurrencyAxios = () => {
             console.log(error);
         });
     };
-    return <div>ConcurrencyAxios && ConcurrencyAxios.map</div>
+    return <></>
 }
 export default ConcurrencyAxios;

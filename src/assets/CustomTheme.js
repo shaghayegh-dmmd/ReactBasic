@@ -1,8 +1,8 @@
 
-import { createMuiTheme } from "@material-ui/core/styles";
+import { createTheme } from "@material-ui/core/styles";
 
 
-const CustomTheme =  createMuiTheme({
+const CustomTheme =  createTheme({
     direction: 'ltr',
     typography:{
         fontFamily:"IRANSans",
